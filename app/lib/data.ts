@@ -8,6 +8,7 @@ import {
   Revenue,
 } from './definitions';
 import { formatCurrency } from './utils';
+import { setTimeout } from 'next/dist/compiled/@edge-runtime/primitives'
 
 export async function fetchRevenue() {
   try {
